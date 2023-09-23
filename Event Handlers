@@ -1,0 +1,18 @@
+Event allows you to write JS code that reacts to certain situations. Examples of events include:
+- The user clicks the button.
+- The web page loading
+- A form field being changed.
+
+There are two ways to handle events in JS:
+- By using an event handler
+- By adding an event listener
+
+JS provides various kinds of event handlers that get triggered based on specific actions on hte HTML elements. Few
+of the event handlers are:
+- onClick
+- onLoad
+- onmouseover
+- onmouseout
+- onkeypress
+- onkeydown
+- onkeyup
