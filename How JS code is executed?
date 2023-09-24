@@ -1,0 +1,30 @@
+- What happens when you run a JavaScript program? Yes, a
+- So when you run this whole code, A global execution context is created.
+- A global execution context is like a big box and it has two components. These two components are the Memory Component & the Code component.
+- This execution context is created in two phases
+- The first phase is also known as the memory creation phase.
+- The second phase, that is the code execution phase.
+
+CODE:
+var n = 2;
+function square(num) {
+ var ans = num * num;
+ return ans;
+}
+
+sqaure(3);
+square(4);
+
+MEMORY CREATION PHASE:
+- When it allocates memory to n, it stores a special value which is known as undefined. It's like a placeholder, a special keyword in JS 
+- In case of functions, it literally stores the whole code of the function inside this memory space
+
+CODE EXECUTION PHASE
+- The second phase is the code execution phase.
+- So JavaScript, once again runs through this whole JS program line by line and it executes the code now.
+- So this is the point when all these functions and every calculation in the program is done.
+- So as soon as it encounters this first line, n=2, it actually places the '2' inside the 'n'
+- After finishing line one, it goes to line two and sees that We have nothing to do here So it moves to line number 6 Line number
+- Here, we invoke a function Here's a function invocation,  it means that the function is now being executed.
+- Functions are the heart of JavaScript
+- So functions over here are like a mini program, and whenever a new function is invoked a brand new execution context is created.
