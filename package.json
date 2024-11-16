@@ -4,7 +4,7 @@
   "main": "Memoization.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Memoization.js"
+    "start": "nodemon FlattenArray.js"
   },
   "author": "",
   "license": "ISC",
